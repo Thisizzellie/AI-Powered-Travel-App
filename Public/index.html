@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Virtual Travel Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <div id="app" class="max-w-4xl mx-auto p-8">
+        <h1 class="text-4xl font-bold text-center mb-8">Your Virtual Travel Guide</h1>
+        <form id="travel-form" class="bg-white shadow-md rounded-lg p-6">
+            <div class="mb-4">
+                <label for="destination" class="block text-lg font-medium mb-2">Destination:</label>
+                <input type="text" id="destination" name="destination" required
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div class="mb-4">
+                <label for="dates" class="block text-lg font-medium mb-2">Dates:</label>
+                <input type="text" id="dates" name="dates"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div class="mb-4">
+                <label for="preferences" class="block text-lg font-medium mb-2">Preferences:</label>
+                <textarea id="preferences" name="preferences"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+            </div>
+            <button type="submit"
+                class="w-full bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-200">Generate
+                Itinerary</button>
+        </form>
+        <div id="result" class="mt-8 p-4 bg-white shadow-md rounded-lg"></div>
+    </div>
+
+    <div id="game-container" class="max-w-4xl mx-auto p-8 mt-10">
+        <h2 class="text-3xl font-semibold text-center mb-6">Find your perfect holiday buddy!</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="animal-card bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="%20-7.jpg" alt="Fun" class="w-full h-40 object-cover">
+                <div class="p-4 text-center">Fun</div>
+            </div>
+            <div class="animal-card bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="%20-8.jpg" alt="Supportive" class="w-full h-40 object-cover">
+                <div class="p-4 text-center">Supportive</div>
+            </div>
+            <div class="animal-card bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="%20-9.jpg" alt="Daring" class="w-full h-40 object-cover">
+                <div class="p-4 text-center">Daring</div>
+            </div>
+            <div class="animal-card bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="50.jpg" alt="Sleepy" class="w-full h-40 object-cover">
+                <div class="p-4 text-center">Sleepy</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
