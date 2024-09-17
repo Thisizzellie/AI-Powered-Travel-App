@@ -6,6 +6,16 @@ Welcome to the AI-Powered Travel Companion Web App, an intuitive tool for genera
 > **Click on the image above to watch the demo video**
 
 ---
+## Screenshot
+
+Here’s a screenshot of the app in action:
+
+<img src="https://github.com/user-attachments/assets/2e99e45b-1420-42d3-8405-611dd568a053" alt="App Screenshot" width="600px">
+
+
+
+
+---
 
 ##  Features
 
