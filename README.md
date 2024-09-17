@@ -2,9 +2,9 @@
 
 Welcome to the AI-Powered Travel Companion Web App, an intuitive tool for generating personalized travel itineraries using **Google Generative AI (Gemini API)** and **LiteAPI**. Whether you're planning a weekend getaway or a long vacation, this app helps you craft the perfect itinerary tailored to your preferences.
 
-[![Demo Video](https://img.youtube.com/vi/31LrpgduO8g/0.jpg)](https://youtu.be/31LrpgduO8g)
-> **Click on the image above to watch the demo video**
 
+[![Demo Video](https://img.youtube.com/vi/a7p5LRV7p4o/0.jpg)](https://youtu.be/a7p5LRV7p4o?si=lt-1C9lym8V6-ztT)
+> **Click on the image above to watch the demo video**
 ---
 ## Screenshot 
 
